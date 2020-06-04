@@ -1,6 +1,6 @@
 # first app with vue.js
 
-<img src="https://github.com/tzakrzewski-dev/vue-js-openweather/blob/master/src/assets/images/screenshot1.png?raw=true" width="50%/>
+<img src="https://github.com/tzakrzewski-dev/vue-js-openweather/blob/master/src/assets/images/screenshot1.png?raw=true" width="50%"/>
 
 
 # vue-app-weather
