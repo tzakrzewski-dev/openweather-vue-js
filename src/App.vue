@@ -57,8 +57,8 @@ export default {
           .then(this.setResults);
       }
     },
+    /***** Envoi des datas de la requête fetch dans la propriété weather de data */
     setResults(results) {
-      console.log(this.weather);
       this.weather = results;
     },
     /***** Transtypage de la date d'affichage au format français */
