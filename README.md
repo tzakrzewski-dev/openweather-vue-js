@@ -1,4 +1,6 @@
-# first app with vue.js
+## first app with vue.js
+
+based on API openweathermap  with daily data
 
 <img src="https://github.com/tzakrzewski-dev/vue-js-openweather/blob/master/src/assets/images/screenshot1.png?raw=true" width="50%"/>|
 <img src="https://github.com/tzakrzewski-dev/vue-js-openweather/blob/master/src/assets/images/screenshot2.png?raw=true" width="50%"/>
