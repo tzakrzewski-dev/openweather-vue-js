@@ -1,4 +1,5 @@
 <template>
+  <!--******************** Définition des conditions d'affichage de l'arrière plan *** -->
   <div
     id="app"
     :class="
@@ -7,6 +8,7 @@
   >
     <main>
       <div class="search-box">
+        <!--Envoi des données d'input dans une propriété query déclarée dans data*** -->
         <input
           type="text"
           class="search-bar"
@@ -43,6 +45,7 @@ export default {
     };
   },
   methods: {
+    /***** Récupération des données sur l'API en fonction des propriétées définies dans data */
     fetchWeather(e) {
       if (e.key == "Enter") {
         fetch(
@@ -55,8 +58,10 @@ export default {
       }
     },
     setResults(results) {
+      console.log(this.weather);
       this.weather = results;
     },
+    /***** Transtypage de la date d'affichage au format français */
     dateBuilder() {
       let d = new Date();
       let months = [
@@ -99,6 +104,8 @@ export default {
 };
 </script>
 
+
+<!-- Définition du style css  -->
 <style>
 * {
   margin: 0;
