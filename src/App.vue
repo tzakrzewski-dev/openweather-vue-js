@@ -39,8 +39,7 @@ export default {
       api_key: "b2cbb84ef7866db36f32ca48fe6dd3e6",
       url_base: "https://api.openweathermap.org/data/2.5/",
       query: "",
-      weather: {},
-      iconDay: ""
+      weather: {}
     };
   },
   methods: {
